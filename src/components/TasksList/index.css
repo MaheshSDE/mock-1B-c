@@ -1,0 +1,41 @@
+.task-item {
+  background-color: #323f4b;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.task-item-container {
+  background-color: #131213;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.task {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.tag-container {
+  background-color: #f3aa4e;
+  height: 35px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.tag {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}

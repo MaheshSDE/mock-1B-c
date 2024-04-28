@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-color: #131213;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.left-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  height: 100vh;
+  padding-top: 40px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  color: #f3aa4e;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.inputElement {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.selectElement {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
+}
+
+.add-task-button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #f3aa4e;
+  color: #ffffff;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.right-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  height: 100vh;
+  padding-top: 40px;
+}
+.tags-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 450;
+  color: #ffffff;
+}
+.tags-un-order-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.tasks-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.task-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 450;
+  color: #ffffff;
+}
+
+.not-found-tasks {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-found {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 450;
+}
+
+.tasks-un-order-list {
+  list-style-type: none;
+  width: 100%;
+}

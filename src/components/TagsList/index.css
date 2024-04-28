@@ -1,0 +1,20 @@
+.tags-list-items {
+  padding-right: 20px;
+}
+.button-item {
+  height: 28px;
+  width: 120px;
+  border: 1px solid #f1f5f9;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.active-class-name {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border: none;
+}
